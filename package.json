@@ -1,0 +1,14 @@
+{
+  "name": "facebook-live-streamer",
+  "version": "1.0.0",
+  "description": "Facebook Live Stream via RTMP + HLS Preview",
+  "scripts": {
+    "start": "npx serve . -p $PORT -s"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
